@@ -12,7 +12,7 @@
   </div>
 </div>
 
-    <div class="container-2">
+    <div class="container-2 d-grid gap-2 mx-auto black">
       <div class="container-fluid px-2">
         <div class="row">
           <div class="row g-5 justify-content-center">
@@ -22,7 +22,7 @@
                   class="bg-secondary shadow-sm justify-content-around rounded"
                   style="--bs-bg-opacity: 0.3">
                   <div class="revenue">
-                    <span class="rev">Revenue</span>
+                    <span class="rev text-wrap">Revenue</span>
                     <span class="revs-per border rounded-pill"> +4.00</span>
                     <span class="revs">P 15,000 </span>
                   </div>
@@ -35,7 +35,7 @@
                   class="bg-secondary shadow-sm justify-content-around rounded"
                   style="--bs-bg-opacity: 0.3">
                   <div class="expIncome">
-                    <span class="expIn">Expected Income</span>
+                    <span class="expIn text-wrap">Expected Income</span>
                     <span class="expIn-per border rounded-pill"> +4.00</span>
                     <span class="expInc">P 15,000 </span>
                   </div>

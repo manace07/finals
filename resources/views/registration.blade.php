@@ -4,11 +4,11 @@
 @yield('content')
 
 <div
-      class="container-3 d-flex container-fluid justify-content-center align-items-center">
+      class="container-fluid">
+      <div class="col">
       <!-- Login container   -->
       <div
-        class="row border rounded-1 p-3 shadow box-area"
-        style="background: #fff">
+        class="row border rounded-1 p-3 shadow box-area bg-light">
         <!-- Left container -->
         <div
           class="col-md-4 d-flex justify-content-center align-items-center flex-column left-box">
@@ -34,7 +34,7 @@
                   id="fn"
                   placeholder="firstname"
                   required />
-                <label for="firsname">First Name <span>*</span> </label>
+                <label for="firstname">First Name <span>*</span> </label>
               </div>
 
               <div class="form-floating form-group">
@@ -102,10 +102,11 @@
               <div class="form-group text-center">
                 <input type="submit" value="REGISTER" />
               </div>
-              <div><a class="reg nav-link" onclick="window.location.href='{{route('login')}}'">Log In</a></div>
+              <div><a class="reg nav-link" onclick="window.location.href='{{route('login')}}'">Login</a></div>
             </form>
           </div>
         </div>
+      </div>
       </div>
 
       <script>

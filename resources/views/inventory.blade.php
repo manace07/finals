@@ -203,6 +203,7 @@ a:hover{
               </div>
             </div>
           </div>
+          <div class="table-responsive">
           <div class="row">
             <div class="col">
               <table class="table rounded shadow-sm table-hover">
@@ -240,6 +241,7 @@ a:hover{
                 </tbody>
               </table>
             </div>
+          </div>
           </div>
         </div>
       </div>
